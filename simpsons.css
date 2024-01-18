@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    background-color: rgb(255, 225, 52);
+    margin: 0px;
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ------------------------------HEADER------------------------------ */
+header{
+    background-color: rgb(100, 171, 204);
+}
+
+header > p{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header figure img{
+    width: 100%;
+}
+
+/* ------------------------------MAIN------------------------------ */
+main{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-color: white;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ------------------------------NAVBAR------------------------------ */
+nav{
+    background-color: rgb(54, 119, 150);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    width: auto;
+    height: auto;
+    max-height: 150px;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    float: left;
+}
+
+nav ul li a{
+    color: white;
+}
+
+/* ------------------------------ARTICLE------------------------------ */
+article{
+    width: auto;
+    padding: 10px;
+}
+
+article p{
+    text-align: justify;
+}
+
+article > h1{
+    color: rgb(228, 200, 45);
+    font-size: 200%;
+}
+
+/* ------------------------------ASIDE------------------------------ */
+aside{
+    background-color: rgb(54, 119, 150);
+    width: auto;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+aside p{
+    text-align: justify;
+}
+
+aside figure figcaption{
+    text-align: center;
+    font-size: 140%;
+    font-weight: bolder;
+    padding: 10px;
+    
+}
+
+aside figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+aside figure img{
+    width: 75%;
+    height: 75%;
+    border-style: solid;
+    border-color: white;
+}
+
+/* ------------------------------FOOTER------------------------------ */
+
+footer{
+    padding: 10px;
+    background-color: rgb(37, 42, 119);
+    color: white;
+    font-size: large;
+    text-align: center;
+}

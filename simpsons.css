@@ -148,22 +148,21 @@ footer{
     }
 
     nav ul li{
-        margin: 5px;
+        margin: 10px;
     }
 
     article{
         background-color: white;
     }
-
 }
 
 /*------------------------------VERSION TABLETTE------------------------------*/
-@media screen and (max-width: 912px) {
+@media screen and (max-width: 912px) and (min-width:430px) {
 
     main{
         flex-direction: column;
     }
-    
+
     nav{
         padding-bottom: 15px;
     }
@@ -175,5 +174,4 @@ footer{
     nav ul li{
         margin: 5px;
     }
-
 }

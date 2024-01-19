@@ -53,15 +53,14 @@ nav{
     width: auto;
     height: auto;
     max-height: 150px;
-    text-align: center;
 }
 
 nav ul{
     list-style: none;
-    float: left;
 }
 
 nav ul li a{
+    text-align: justify;
     color: white;
 }
 
@@ -127,11 +126,54 @@ footer{
     text-align: center;
 }
 
-/* ------------------------------RESPONSIVE------------------------------ */
+/* ------------------------------VERSION MOBILE------------------------------ */
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 430px) {
     
     #wrapper{
         padding: 0;
     }
+
+    main{
+        flex-direction: column;
+        background-color: rgb(255, 225, 52);
+    }
+
+    nav{
+        padding-bottom: 15px;
+    }
+
+    nav ul{
+        text-align: center;
+    }
+
+    nav ul li{
+        margin: 5px;
+    }
+
+    article{
+        background-color: white;
+    }
+
+}
+
+/*------------------------------VERSION TABLETTE------------------------------*/
+@media screen and (max-width: 912px) {
+
+    main{
+        flex-direction: column;
+    }
+    
+    nav{
+        padding-bottom: 15px;
+    }
+
+    nav ul{
+        text-align: center;
+    }
+
+    nav ul li{
+        margin: 5px;
+    }
+
 }

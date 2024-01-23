@@ -50,17 +50,23 @@ nav{
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 15px;
-    width: auto;
-    height: auto;
-    max-height: 150px;
+    padding-bottom: 15px;
+    height: fit-content;
+    
 }
 
 nav ul{
     list-style: none;
+    text-align: center;
+}
+
+nav ul li{
+    margin-bottom: 10px;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 nav ul li a{
-    text-align: justify;
     color: white;
 }
 
@@ -87,7 +93,7 @@ aside{
     color: white;
     padding: 10px;
     margin-bottom: 20px;
-    height: auto;
+    height: fit-content;
 }
 
 aside p{
@@ -99,6 +105,8 @@ aside figure figcaption{
     font-size: 140%;
     font-weight: bolder;
     padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
     
 }
 
@@ -139,16 +147,20 @@ footer{
         background-color: rgb(255, 225, 52);
     }
 
-    nav{
-        padding-bottom: 15px;
-    }
-
     nav ul{
         text-align: center;
     }
 
     nav ul li{
-        margin: 10px;
+        margin-bottom: 10px;
+        padding: 6px;
+    }
+
+    nav ul li a{
+        border-style: solid;
+        border-width: 1px;
+        text-decoration: none;
+        padding: 5px;
     }
 
     article{
@@ -163,15 +175,19 @@ footer{
         flex-direction: column;
     }
 
-    nav{
-        padding-bottom: 15px;
-    }
-
     nav ul{
         text-align: center;
     }
 
     nav ul li{
-        margin: 5px;
+        margin-bottom: 10px;
+        padding: 6px;
+    }
+
+    nav ul li a{
+        border-style: solid;
+        border-width: 1px;
+        text-decoration: none;
+        padding: 5px;
     }
 }
